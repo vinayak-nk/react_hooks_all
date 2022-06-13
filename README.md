@@ -1,6 +1,7 @@
 # react_hooks_all
 
-1. useState
+1. useState:   
+    const [counter, updateCounter] = useState(0)
 
 2. useEffect
 
