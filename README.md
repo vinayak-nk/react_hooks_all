@@ -8,6 +8,7 @@
 3. useContext
 
 4. useReducer
+      const [state, dispatch] = useReducer(reducer, initialState)
 
 5. useCallback
 
