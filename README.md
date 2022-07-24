@@ -8,7 +8,17 @@
 3. useContext
 
 4. useReducer
-      const [state, dispatch] = useReducer(reducer, initialState)
+    const initialState = { count: 0, showText: false }
+    reducer = (state, action) => {
+        switch(action.type) {
+            case INCREMENT: return state
+            case DECREMENT: return state
+            default: return state
+        }
+    }
+    const [state, dispatch] = useReducer(reducer, initialState)
+
+    <button onClick={() => {dispatch({ type: 'INCREMENT' })}}>
 
 5. useCallback
 
